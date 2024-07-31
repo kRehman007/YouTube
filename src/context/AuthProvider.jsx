@@ -13,7 +13,7 @@ const [nav,setNav]=useState(false);
 const [value,setValue]=useState('new')
 
 useEffect(()=>{
-     // fetchAllData(value)
+      fetchAllData(value)
 },[value])
 const fetchAllData=(query)=>{
     setLoading(true)
